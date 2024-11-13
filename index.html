@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio de Documentos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Repositorio Semestre</h1>
+    </header>
+
+    <!-- Descripción general -->
+    <section class="description">
+        <p>Bienvenido al repositorio de Organización de Computadores de Santiago Sánchez Ribero. Aquí puedes encontrar secciones con temas específicos vistos en el semestre. 
+            Haz clic en una sección para ver su descripción y acceder al documento relacionado.</p>
+    </section>
+
+    <!-- Secciones del repositorio -->
+    <main>
+        <div class="section" onclick="toggleSection('section1')">
+            <h2>Memoria Principal</h2>
+            <div id="section1" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>La memoria principal, también conocida como memoria RAM (Random Access Memory), es un componente fundamental en los sistemas 
+                    informáticos, encargado de almacenar temporalmente los datos y programas que el procesador necesita ejecutar en tiempo real. 
+                    A diferencia del almacenamiento permanente, como los discos duros o las unidades SSD, la memoria principal es volátil, lo que
+                     significa que su contenido se borra al apagar el dispositivo. Esta memoria permite el acceso rápido a la información,
+                      facilitando una mayor velocidad de procesamiento y optimizando el rendimiento general del sistema. Gracias a la memoria
+                       principal, el sistema operativo y las aplicaciones pueden funcionar de manera ágil, gestionando eficientemente el acceso
+                        a los datos mientras están en uso.</p>
+                <button onclick="openModal('docs/Actividad1-Paul-JP-Santiago.pdf')">Ver Documento</button>
+            </div>
+        </div>
+
+        <div class="section" onclick="toggleSection('section2')">
+            <h2>Memoria Secundaria</h2>
+            <div id="section2" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 2. Esta sección cubre el tema ABC...</p>
+                <button onclick="openModal('document2.pdf')">Ver Documento</button>
+            </div>
+        </div>
+
+        <div class="section" onclick="toggleSection('section3')">
+            <h2>Dispositivos E/S</h2>
+            <div id="section3" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 3. Esta sección cubre el tema DEF...</p>
+                <button onclick="openModal('document3.pdf')">Ver Documento</button>
+            </div>
+        </div>
+
+        <div class="section" onclick="toggleSection('section4')">
+            <h2>Dispositivos RISC de última tecnología</h2>
+            <div id="section4" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+
+        <div class="section" onclick="toggleSection('section5')">
+            <h2>Comparación Generaciones RISC y CISC</h2>
+            <div id="section5" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+
+        <div class="section" onclick="toggleSection('section6')">
+            <h2>GPU - Procesamiento de video 4K óptimo y con la mitad de presupuesto</h2>
+            <div id="section6" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection('section7')">
+            <h2>GPU - Características decisorias para selección de GPU's</h2>
+            <div id="section7" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+
+        <div class="section" onclick="toggleSection('section8')">
+            <h2>GPU - Impacto de las nuevas tecnologías</h2>
+            <div id="section8" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection('section9')">
+            <h2>GPU - Preguta Evaluación 1</h2>
+            <div id="section9" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+    
+        <div class="section" onclick="toggleSection('section10')">
+            <h2>GPU - Preguta Evaluación 2</h2>
+            <div id="section10" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection('section11')">
+            <h2>GPU - Preguta Evaluación 3</h2>
+            <div id="section11" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection('section12')">
+            <h2>GPU - Unidades Flip Flop</h2>
+            <div id="section12" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection('section13')">
+            <h2>Operaciones Básicas</h2>
+            <div id="section13" class="section-content">
+                <img src="img/RAM.jpg" alt="RAM">
+                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
+                <button onclick="openModal('document4.pdf')">Ver Documento</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- Modal para mostrar el documento -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="documentViewer" src="" width="100%" height="500px"></iframe>
+        </div>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024B Repositorio - Organización de Computadores</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

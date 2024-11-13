@@ -183,9 +183,31 @@
         <div class="section" onclick="toggleSection('section13')">
             <h2>Operaciones Básicas</h2>
             <div id="section13" class="section-content">
-                <img src="img/RAM.jpg" alt="RAM">
-                <p>Descripción de la sección 4. Esta sección cubre el tema GHI...</p>
-                <button onclick="openModal('docs/Actividad 8.pdf')">Ver Documento</button>
+                <img src="img/opbasicas.jpg" alt="RAM">
+                <p>Las operaciones básicas en binario como la suma binaria y el desplazamiento se ejecutan utilizando compuertas lógicas (AND, OR, XOR, NOT), que permiten construir circuitos lógicos para cada operación. <br>
+
+                    <b>Suma Binaria:</b><br>
+                    La suma binaria usa compuertas lógicas para sumar dos bits. La operación básica se hace con: <br>
+                    
+                    XOR: calcula el bit de suma (resultado de sumar dos bits). <br>
+                    AND: genera el acarreo cuando ambos bits de entrada son 1. <br>
+                    Para sumar varios bits en paralelo, se usa un sumador completo en el cual: <br>
+                    
+                    La entrada A y B se suman con XOR para obtener el bit de suma. <br>
+                    Si hay acarreo, se añade a la siguiente posición en la secuencia usando compuertas AND y OR. <br>
+
+                    <b>Desplazamiento de Bits:</b> <br>
+                    El desplazamiento es mover los bits de un número binario hacia la izquierda o derecha: <br>
+                    
+                    Desplazamiento a la izquierda: desplaza todos los bits hacia la izquierda, añadiendo un 0 a la derecha. Equivale a multiplicar por 2. <br>
+                    Desplazamiento a la derecha: desplaza los bits a la derecha, añadiendo un 0 o el bit de signo en la izquierda, según sea un desplazamiento lógico o aritmético. Equivale a dividir entre 2. <br>
+
+                    <b>Ejemplo con Compuertas Lógicas:</b> <br>
+                    Para un desplazamiento a la izquierda en binario de un número de 4 bits, las compuertas mueven cada bit de entrada a la posición siguiente de salida: <br>
+                    
+                    Bit 0 (más bajo) se coloca en la posición 1, así sucesivamente, agregando 0 en el bit 0 al final. <br>
+                    Estas operaciones, manejadas por compuertas lógicas, son claves en procesadores y circuitos integrados para realizar cálculos y manipulaciones de datos de manera rápida y eficiente.</p> <br>
+                <button onclick="openModal('docs/Actividad 13.pdf')">Ver Documento</button>
             </div>
         </div>
         
